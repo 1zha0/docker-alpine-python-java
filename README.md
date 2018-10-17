@@ -1,18 +1,16 @@
-## Minified Docker image with Java
+## Minified Docker image with Python and Java
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/anapsix/alpine-java.svg?style=round-square)](https://hub.docker.com/r/anapsix/alpine-java/)
-[![](https://images.microbadger.com/badges/image/anapsix/alpine-java:latest.svg)](https://microbadger.com/images/anapsix/alpine-java:latest)
-[![Build Status](https://travis-ci.org/anapsix/docker-alpine-java.svg?branch=master)](https://travis-ci.org/anapsix/docker-alpine-java)
-
-Basic [Docker](https://www.docker.com/) image to run [Java](https://www.java.com/) applications.
-This image is based on [AlpineLinux](http://alpinelinux.org/) to keep the size down, yet smaller images do exist.
-Includes BASH, since many Java applications like to have convoluted BASH start-up scripts.
+Basic [Docker](https://www.docker.com/) image to run [Python](https://www.python.org/) and [Java](https://www.java.com/) applications.
+This image is:
+- Based on [python/2.7.15-alphine3.7](https://github.com/docker-library/python/blob/ac49e0bb09aafe4100fe5662636c24fce7206008/2.7/alpine3.7/Dockerfile)
+- With generation script forked and modified from [anapsix/alpine-java](https://github.com/anapsix/docker-alpine-java)
 
 ### Versions/tags
 
 | software     | version      |
 |--------------|--------------|
 | alpine       | `3.7`        |
+| python       | `2.7.15`     |
 | glibc        | `2.28-r0`    |
 | java 8       | `8u181b13`   |
 
@@ -59,8 +57,9 @@ Latest Oracle Java 7 JDK (plus DCEVM variant):
 
 Example:
 
-    docker run -it --rm anapsix/alpine-java java -version
+    docker run -it --rm sensecba/alpine-python-java python
 
+    docker run -it --rm sensecba/alpine-python-java java -version
 
 ### Disclaimer
 
