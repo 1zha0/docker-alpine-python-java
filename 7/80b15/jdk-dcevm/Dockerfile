@@ -1,5 +1,5 @@
-# AlpineLinux with a glibc-2.28-r0 and Oracle Java 7
-FROM alpine:3.7
+# AlpineLinux with a glibc-2.28-r0, Python 2.7.15, and Oracle Java 7
+FROM python:2.7.15-alpine3.7
 
 
 MAINTAINER Anastas Dancha <anapsix@random.io>

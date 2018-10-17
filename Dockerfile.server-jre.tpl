@@ -1,5 +1,5 @@
 # AlpineLinux with a glibc-%GLIBC_VERSION% and Oracle Java %JVM_MAJOR%
-FROM alpine:%ALPINE_VERSION%
+FROM python:%PYTHON_ALPINE_VERSION%
 
 MAINTAINER Anastas Dancha <anapsix@random.io>
 # thanks to Vladimir Krivosheev <develar@gmail.com> aka @develar for smaller image
