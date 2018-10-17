@@ -12,7 +12,7 @@ This image is:
 | alpine       | `3.7`        |
 | python       | `2.7.15`     |
 | glibc        | `2.28-r0`    |
-| java 8       | `8u181b13`   |
+| java 8       | `8u192b12`   |
 
 #### MAJOR TAGGING UPDATE
 To allow selection of specific Java version, a **major retagging is taking place**.
@@ -27,7 +27,7 @@ Specific version tagging is manually done, no guarantee that all minor builds wi
 #### JCE Policy
 Special `_unlimited` images are available with Unlimited JCE Policy
 
-**Latest JRE8/JDK8 Version**: `8u181b13`
+**Latest JRE8/JDK8 Version**: `8u192b12`
 
 ### Tags
 
