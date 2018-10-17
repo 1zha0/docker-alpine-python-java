@@ -22,13 +22,12 @@ Well, `:7` no as much, since it's EOL and no more patches are released.
 
 However specific `:8uXXXbYY` tags (such as `:8u102b14`, `:8u112b15`) will guarantee particular MAJOR-MINOR-BUILD Java versions.
 
+Specific version tagging is manually done, no guarantee that all minor builds will be covered.
+
 #### JCE Policy
 Special `_unlimited` images are available with Unlimited JCE Policy
 
-**Early Release MUSL JRE9 / JDK9**: `9 / 9_jdk`
 **Latest JRE8/JDK8 Version**: `8u181b13`
-**Latest JRE7/JDK7 Version**: `7u80b15` - no longer buildable, as Oracle provides no downloadable packages.
-**JDK8/JDK7 Versions with alternative JVM - [DCEVM](https://dcevm.github.io/)**: `light-8u112` / `full-7u80`
 
 ### Tags
 
@@ -43,14 +42,6 @@ Latest Oracle Java 8 JDK (plus DCEVM variant)
 * `8_jdk_unlimited`
 * `8_jdk-dcevm`
 * `8_jdk-dcevm_unlimited`
-
-Latest Oracle Java 7 Server-JRE:
-* `7`
-* `7_server-jre`
-
-Latest Oracle Java 7 JDK (plus DCEVM variant):
-* `7_jdk`
-* `7_jdk-dcevm`
 
 
 ### Usage
