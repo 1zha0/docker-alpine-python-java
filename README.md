@@ -48,9 +48,9 @@ Latest Oracle Java 8 JDK (plus DCEVM variant)
 
 Example:
 
-    docker run -it --rm alpine-python-java python
+    docker run -it --rm makingsense/alpine-python-java python
 
-    docker run -it --rm alpine-python-java java -version
+    docker run -it --rm makingsense/alpine-python-java java -version
 
 ### Disclaimer
 
